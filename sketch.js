@@ -4,13 +4,13 @@ var cat1,cat2,mouse1,mouse2,bg
 
 function preload() {
     //load the images here
-    cat1=loadImage("images/cat1.png")
-    cat2=loadAnimation("images/cat2.png","images/cat3.png")
-    cat3=loadImage("images/cat4.png")
-    mouse1=loadImage("images/mouse1.png")
-    mouse2=loadImage("images/mouse2.png","images/mouse3.png")
-    mouse3=loadImage("images/mouse4.png")
-    bg=loadImage("images/garden.png")
+    cat1=loadImage("cat1.png")
+    cat2=loadAnimation("cat2.png","cat3.png")
+    cat3=loadImage("cat4.png")
+    mouse1=loadImage("mouse1.png")
+    mouse2=loadImage("mouse2.png","mouse3.png")
+    mouse3=loadImage("mouse4.png")
+    bg=loadImage("garden.png")
 }
 
 function setup(){
